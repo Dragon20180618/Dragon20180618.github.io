@@ -1,0 +1,96 @@
+<pre class="html5" style="font-family:monospace;"><span style="color: #00bbdd;">&lt;!DOCTYPE html&gt;</span>
+    <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">head</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">title</span>&gt;</span>
+            Nacy Ever
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">title</span>&gt;</span>
+    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">head</span>&gt;</span>
+    <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">body</span> &gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h1</span>&gt;</span>Dragon WorkStation<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h1</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;wrapper&quot;</span>&gt;</span>
+                <span style="color: #808080; font-style: italic;">&lt;!--背景图片--&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">id</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;code_bg&quot;</span> <span style="color: #000066;">style</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;background-image: url(public/top.jpg);&quot;</span>&gt;&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+                <span style="color: #808080; font-style: italic;">&lt;!--其他代码 ... --&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">style</span>&gt;</span>
+            #code_bg{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            min-width: 1000px;
+            z-index:-10;
+            zoom: 1;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center 0;
+            }
+            .block{
+                position: relative;
+                display: inline;
+            }
+            h1
+            {
+                color:orange;
+                text-align:center;
+            }
+            .mask {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(101, 101, 101, 0.6);
+                color: #ffffff;
+                opacity: 0;
+            }
+            .mask h3 {
+                text-align: center;
+            }
+            .block a:hover .mask {
+                opacity: 1;           
+            }
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">style</span>&gt;</span>
+    &nbsp;
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span> <span style="color: #ff0000;">&quot;block&quot;</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span>  <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;https://github.com/Dragon20180618?tab=repositories&quot;</span> &gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">img</span>  <span style="color: #000066;">src</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./public/github.jpg&quot;</span><span style="color: #000066;">width</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;20%&quot;</span><span style="color: #66cc66;">/</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span> <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;https://github.com/Dragon20180618?tab=repositories&quot;</span>&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;mask&quot;</span>&gt;</span>
+                   <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>Github repository<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>
+                    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span> <span style="color: #ff0000;">&quot;block&quot;</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span>  <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./Code/Code.html&quot;</span> &gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">img</span>  <span style="color: #000066;">src</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./public/code.jpg&quot;</span><span style="color: #000066;">width</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;20%&quot;</span><span style="color: #66cc66;">/</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span> <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./Code/Code.html&quot;</span>&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;mask&quot;</span>&gt;</span>
+                   <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>Algorithm<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>
+                    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span> <span style="color: #ff0000;">&quot;block&quot;</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span>  <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./Nacy/Nacy.html&quot;</span> &gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">img</span>  <span style="color: #000066;">src</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./public/Nacy.jpg&quot;</span><span style="color: #000066;">width</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;20%&quot;</span><span style="color: #66cc66;">/</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span> <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./Nacy/Nacy.html&quot;</span>&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;mask&quot;</span>&gt;</span>
+                   <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>Nacy Ever<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>
+                    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span> <span style="color: #ff0000;">&quot;block&quot;</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span>  <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;tencent://Message/?Uin=715077252&amp;websiteName=q-zone.qq.com&amp;Menu=yes&quot;</span>&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">img</span>  <span style="color: #000066;">src</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;./public/QQ.jpg&quot;</span><span style="color: #000066;">width</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;20%&quot;</span><span style="color: #66cc66;">/</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">a</span> <span style="color: #000066;">href</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;tencent://Message/?Uin=715077252&amp;websiteName=q-zone.qq.com&amp;Menu=yes&quot;</span>&gt;</span>
+                <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">div</span> <span style="color: #000066;">class</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">&quot;mask&quot;</span>&gt;</span>
+                   <span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>QQ community<span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">h3</span>&gt;</span>
+                    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+            <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">a</span>&gt;</span>
+        <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">div</span>&gt;</span>
+    <span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">body</span>&gt;</span></pre>
