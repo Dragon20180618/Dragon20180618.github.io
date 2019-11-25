@@ -2,100 +2,116 @@
 
 ```html
 <!DOCTYPE html>
-    <head>
-        <title>
-            Nacy Ever
-        </title>
-    </head>
-    <body >
-        <h1>Dragon WorkStation</h1>
-        <div class="wrapper">
-                <!--背景图片-->
-                <div id="code_bg" style="background-image: url(public/top.jpg);"></div>
-                <!--其他代码 ... -->
-            </div>
-        <style>
-            #code_bg{
-            position:fixed;
+<head>
+    <title>
+        Nacy Ever
+    </title>
+</head>
+<body >
+    <div class="Topic">
+    <h1>Dragon WorkStation</h1>
+    </div>
+    <div class="wrapper">
+            <!--背景图片-->
+            <div id="code_bg" style="background-image: url(public/top.jpg);"></div>
+            <!--其他代码 ... -->
+        </div>
+        <marquee scrollamount="18"> <span style="font-weight: bolder;font-size: 40px;color:burlywood;">Free!Public!Communicate!</span></marquee>
+    <style>
+        .Topic{
+            font-size: 350%;
+        }
+        #code_bg{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        height:100%;
+        min-width: 1000px;
+        z-index:-10;
+        zoom: 1;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+        }
+        .block{
+            position: relative;
+            display: inline;
+        }
+        h1
+        {
+            color:orange;
+            text-align:center;
+        }
+        .mask {
+            position: absolute;
             top: 0;
             left: 0;
-            width:100%;
-            height:100%;
-            min-width: 1000px;
-            z-index:-10;
-            zoom: 1;
-            background-color: #fff;
-            background-repeat: no-repeat;
-            background-size: cover;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            background-position: center 0;
-            }
-            .block{
-                position: relative;
-                display: inline;
-            }
-            h1
-            {
-                color:orange;
-                text-align:center;
-            }
-            .mask {
-                position: absolute;
-                top: 0;
-                left: 0;
-                background: rgba(101, 101, 101, 0.6);
-                color: #ffffff;
-                opacity: 0;
-            }
-            .mask h3 {
-                text-align: center;
-            }
-            .block a:hover .mask {
-                opacity: 1;           
-            }
-        </style>
-     
-        <div class= "block">
-        <a  href="https://github.com/Dragon20180618?tab=repositories" >
-            <img  src="./public/github.jpg"width="20%"/>
-            <a href="https://github.com/Dragon20180618?tab=repositories">
-                <div class="mask">
-                   <h3>Github repository</h3>
-                    </div>
-            </a>
+            background: rgba(101, 101, 101, 0.6);
+            color: #ffffff;
+            opacity: 0;
+        }
+        .mask h3 {
+            text-align: center;
+        }
+        .block a:hover .mask {
+            opacity: 1;           
+        }
+        .China{
+            color:red;
+        }
+        .group{
+            text-align:center;
+        }
+    </style>
+    <div class = "group">
+    <div class="block">
+    <a  href="https://github.com/Dragon20180618?tab=repositories" >
+        <img  src="./public/github.jpg"width="20%"/>
+        <a href="https://github.com/Dragon20180618?tab=repositories">
+            <div class="mask">
+               <h3>Github repository</h3>
+                </div>
         </a>
-        </div>
-        <div class= "block">
-            <a  href="./Code/Code.html" >
-                <img  src="./public/code.jpg"width="20%"/>
-            </a>
-            <a href="./Code/Code.html">
-                <div class="mask">
-                   <h3>Algorithm</h3>
-                    </div>
-            </a>
-        </div>
-        <div class= "block">
-            <a  href="./Nacy/Nacy.html" >
-                <img  src="./public/Nacy.jpg"width="20%"/>
-            </a>
-            <a href="./Nacy/Nacy.html">
-                <div class="mask">
-                   <h3>Nacy Ever</h3>
-                    </div>
-            </a>
-        </div>
-        <div class= "block">
-            <a  href="tencent://Message/?Uin=715077252&websiteName=q-zone.qq.com&Menu=yes">
-                <img  src="./public/QQ.jpg"width="20%"/>
-            </a>
-            <a href="tencent://Message/?Uin=715077252&websiteName=q-zone.qq.com&Menu=yes">
-                <div class="mask">
-                   <h3>QQ community</h3>
-                    </div>
-            </a>
-        </div>
-    </body>
+    </a>
+    </div>
+    <div class= "block">
+        <a  href="./Code/Code.html" >
+            <img  src="./public/code.jpg"width="20%"/>
+        </a>
+        <a href="./Code/Code.html">
+            <div class="mask">
+               <h3>Algorithm</h3>
+                </div>
+        </a>
+    </div>
+    <div class= "block">
+        <a  href="./Nacy/Nacy.html" >
+            <img  src="./public/Nacy.jpg"width="20%"/>
+        </a>
+        <a href="./Nacy/Nacy.html">
+            <div class="mask">
+               <h3>Nacy Ever</h3>
+                </div>
+        </a>
+    </div>
+    <div class= "block">
+        <a  href="tencent://Message/?Uin=715077252&websiteName=q-zone.qq.com&Menu=yes">
+            <img  src="./public/QQ.jpg"width="20%"/>
+        </a>
+        <a href="tencent://Message/?Uin=715077252&websiteName=q-zone.qq.com&Menu=yes">
+            <div class="mask">
+               <h3>QQ community</h3>
+                </div>
+        </a>
+    </div>
+    </div>
+    <div class="China">
+        <h1>坚决拥护中国共产党的领导</h1>>
+    </div>
+</body>
 ```
 
